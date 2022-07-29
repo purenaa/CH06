@@ -1,5 +1,6 @@
 //func_Test.c
 #include <stdio.h>
+#include <math.h>    //라이브러리는 함수선언을 할 수 없어서 선언문이 들어있는 헤더파일을 사용
 
 //함수 : 어떤일을 처리하는 논리적인 코드들의 집합
 //함수사용 : 1:함수정의, 2:함수호출, 3:함수선언(옵션)    순서대로 꼭!!! 사용
@@ -28,6 +29,8 @@ int main()
 
 	tax = funcE(salary+sudang, 0.03);
 	printf("실수령액 : %f \n", (salary + sudang)-tax);
+
+	printf("10의 제곱근 : %lf \n", sqrt(10.0));      //sqrt는 라이브러리 함수
 
 	printf("main() end. \n");
 

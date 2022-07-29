@@ -18,5 +18,11 @@
     <ClCompile Include="func_Test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variableScope.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
