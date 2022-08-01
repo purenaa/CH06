@@ -24,5 +24,19 @@
     <ClCompile Include="variableScope.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Bank.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="file1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="file2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
